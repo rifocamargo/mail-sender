@@ -1,0 +1,12 @@
+mail:
+  smtp:
+    auth: false
+    starttls:
+      enable: false 
+    ssl:
+      enable: false
+      trust: ${mail.smtp.host}
+
+#logging:
+#  level:
+#    com.sun.mail: TRACE
